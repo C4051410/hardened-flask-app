@@ -1,0 +1,8 @@
+# requirements.txt
+flask
+flask-sqlalchemy
+# Additions for security
+Werkzeug
+cryptography
+Flask-Talisman # For easily adding HTTP Security Headers (Part E)
+python-dotenv # For loading secrets in production/dev (Part I)
